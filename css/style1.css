@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    background-color: yellow;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex; /*turn on flexbox */
+    flex-direction: row; /*stack items horizontally */
+    gap: 64px; /* create a 64px gap between items */
+    list-style-type: none; /*get rid of the bullet point in front of list item */
+}
+
+.vertical ul{
+    display: flex; /*turn on flexbox*/
+    flex-direction: column; /* stack items vertically */
+    gap: 16px; /* create a 16px gap between items */
+    list-style-type: none; /* get rid of the bullet point in front of list item */
+}
+
+.pane{
+    display: flex; /*turn on flexbox*/
+    flex-direction: row; /*stack items horizontally */
+}
+
+.card{
+    flex: 1;
+}
+
+.mango{
+    width: 100%;
+}
