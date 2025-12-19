@@ -1,0 +1,61 @@
+html, body{
+    height: 100%;
+}
+.container{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+header, footer{
+    flex: 0 0 150px;
+    background-color: blue;
+}
+.center{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+nav, aside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+
+nav{
+    background-color: lightblue;
+
+}
+
+/* .inside{
+    background-color: brown;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+} */
+
+main{
+    background-color: lightgreen;
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+aside{
+    background-color: pink;
+
+}
